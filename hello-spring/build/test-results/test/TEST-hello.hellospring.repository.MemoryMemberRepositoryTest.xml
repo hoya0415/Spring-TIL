@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.hellospring.repository.MemoryMemberRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-22T00:15:06" hostname="DAOU-KAYE" time="0.052">
+<testsuite name="hello.hellospring.repository.MemoryMemberRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-11-23T02:16:22" hostname="DAOU-KAYE" time="0.068">
   <properties/>
-  <testcase name="findByName()" classname="hello.hellospring.repository.MemoryMemberRepositoryTest" time="0.05"/>
+  <testcase name="findAll()" classname="hello.hellospring.repository.MemoryMemberRepositoryTest" time="0.063"/>
+  <testcase name="findByName()" classname="hello.hellospring.repository.MemoryMemberRepositoryTest" time="0.002"/>
   <testcase name="save()" classname="hello.hellospring.repository.MemoryMemberRepositoryTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
