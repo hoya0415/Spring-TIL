@@ -12,6 +12,7 @@ import java.io.IOException;
  * 1. 파라미터 전송 기능
  * http://localhost:8080/request-param?username=hello&age=20
  *
+ * get 방식(url 파라미터)과 POST HTML Form 방식(content-type, message body) 둘 다 지원하는 request.getParameter()메서드 이해
  */
 @WebServlet(name = "RequestParamServlet", urlPatterns = "/request-param")
 public class RequestParamServlet extends HttpServlet {
