@@ -23,8 +23,7 @@ public class ResponseHeaderServlet extends HttpServlet {
 
 //        content(response);
 //        cookie(response);
-        redirect(response);
-
+//        redirect(response);
 
         PrintWriter writer = response.getWriter();
         writer.println("ok");
